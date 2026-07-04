@@ -23,7 +23,23 @@ dotnet-assessment-reviewer/
 │   ├── 09-testing.md
 │   ├── 10-api-design.md
 │   ├── 11-performance-caching.md
-│   └── 12-microservices.md
+│   ├── 12-microservices.md
+│   ├── 13-typescript.md
+│   ├── 14-javascript-es6.md
+│   ├── 15-html5-css3.md
+│   ├── 16-json-xml.md
+│   ├── 17-angular.md
+│   ├── 18-vuejs.md
+│   ├── 19-signalr-realtime.md
+│   ├── 20-docker-containers.md
+│   ├── 21-azure-dotnet.md
+│   ├── 22-event-driven.md
+│   ├── 23-domain-driven-design.md
+│   ├── 24-web-performance.md
+│   ├── 25-observability-logging.md
+│   ├── 26-cicd-devops.md
+│   ├── 27-blazor.md
+│   └── 28-system-design.md
 └── mock-exams/
     ├── MOCK-EXAM-01-multiple-choice.md   ← 50 MCQ with answers
     ├── MOCK-EXAM-02-short-answer.md      ← 25 short answer + code writing
@@ -48,6 +64,22 @@ dotnet-assessment-reviewer/
 | 10 | [REST API Design](./topics/10-api-design.md) | REST principles, HTTP verbs/status codes, versioning, pagination |
 | 11 | [Performance & Caching](./topics/11-performance-caching.md) | IMemoryCache, Redis, async patterns, EF Core tuning |
 | 12 | [Microservices & Architecture](./topics/12-microservices.md) | Microservices, event-driven, message queues, API gateway |
+| 13 | [TypeScript](./topics/13-typescript.md) | Generics, utility types, React integration, tsconfig, discriminated unions |
+| 14 | [JavaScript ES6+](./topics/14-javascript-es6.md) | Closures, this, prototypes, Promises, async/await, modules, event loop |
+| 15 | [HTML5 & CSS3](./topics/15-html5-css3.md) | Semantic HTML, APIs, Flexbox, Grid, custom properties, animations, a11y |
+| 16 | [JSON & XML](./topics/16-json-xml.md) | System.Text.Json, JSON Schema, XML/LINQ, SOAP, content negotiation |
+| 17 | [Angular](./topics/17-angular.md) | Standalone components, Services/DI, RxJS, Router/guards, Signals, forms |
+| 18 | [Vue.js 3](./topics/18-vuejs.md) | Composition API, ref/reactive, Pinia, Vue Router, composables |
+| 19 | [SignalR & Real-Time](./topics/19-signalr-realtime.md) | Hubs, IHubContext, JS client, streaming, Redis scale-out |
+| 20 | [Docker & Containers](./topics/20-docker-containers.md) | Multi-stage Dockerfile, Docker Compose, layer caching, health checks |
+| 21 | [Azure for .NET](./topics/21-azure-dotnet.md) | App Service, Key Vault, Blob Storage, Service Bus, App Insights, Functions |
+| 22 | [Event-Driven Architecture](./topics/22-event-driven.md) | Domain/integration events, MassTransit, outbox pattern, saga, event sourcing |
+| 23 | [Domain-Driven Design](./topics/23-domain-driven-design.md) | Bounded contexts, entities, value objects, aggregates, domain services |
+| 24 | [Web Performance](./topics/24-web-performance.md) | Core Web Vitals, React.memo, code splitting, virtualization, EF tuning |
+| 25 | [Observability & Logging](./topics/25-observability-logging.md) | Serilog, OpenTelemetry, Application Insights, health checks, correlation IDs |
+| 26 | [CI/CD & DevOps](./topics/26-cicd-devops.md) | GitHub Actions, Docker pipelines, deploy to Azure, secrets management |
+| 27 | [Blazor](./topics/27-blazor.md) | Server vs WASM, components, forms, JS interop, auth, lifecycle |
+| 28 | [System Design](./topics/28-system-design.md) | CAP theorem, DB selection, caching, pagination, URL shortener, notifications |
 
 ---
 
@@ -56,17 +88,17 @@ dotnet-assessment-reviewer/
 ### ⚡ 1-Week Intensive
 | Day | Topics | Mock Exam |
 |-----|--------|-----------|
-| 1 | 01 C# + 02 .NET Core | — |
-| 2 | 03 EF Core + 04 Clean Architecture | — |
-| 3 | 05 Design Patterns + 06 Database | MOCK-EXAM-01 |
-| 4 | 07 Auth/Security + 08 React | — |
-| 5 | 09 Testing + 10 API Design | MOCK-EXAM-02 |
-| 6 | 11 Performance + 12 Microservices | MOCK-EXAM-03 |
-| 7 | Review weak areas | All mock exams timed |
+| 1 | 01 C# + 02 .NET Core + 13 TypeScript | — |
+| 2 | 03 EF Core + 04 Clean Architecture + 23 DDD | — |
+| 3 | 05 Design Patterns + 06 Database + 28 System Design | MOCK-EXAM-01 |
+| 4 | 07 Auth/Security + 08 React + 14-18 JS/HTML/Frameworks | — |
+| 5 | 09 Testing + 10 API Design + 19-20 SignalR/Docker | MOCK-EXAM-02 |
+| 6 | 11 Performance + 12 Microservices + 22 Event-Driven | MOCK-EXAM-03 |
+| 7 | 21 Azure + 24-27 Perf/Observability/CI-CD/Blazor | All timed |
 
 ### 📅 2-Week Plan
-- **Week 1**: One topic per day (01–07) + `SENIOR_REVIEWER.md` sections
-- **Week 2**: Topics 08–12 + all three mock exams
+- **Week 1**: Topics 01–14 + `SENIOR_REVIEWER.md` sections
+- **Week 2**: Topics 15–28 + all three mock exams
 
 ---
 
@@ -115,4 +147,4 @@ All code examples in the topic files link to the real BudgetPH codebase:
 
 ---
 
-*Last updated: 2026-07-05 | Stack: .NET 10, C# 13, React 18, SQL Server*
+*Last updated: 2026-07-05 | Stack: .NET 10, C# 13, React 18, TypeScript, Angular, Vue.js, Blazor, Docker, Azure | 28 topics + 3 mock exams*
